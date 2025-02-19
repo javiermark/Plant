@@ -1,0 +1,98 @@
+body {
+    background-image: url("plant.jpg");
+    font-family: Arial, sans-serif;
+    background-color: #e0f7d8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-section {
+    width: 30%;
+    background: #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 55px 0 5px;
+    margin-left: 8%;
+}
+
+input {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-top: auto;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+button {
+    width: 55%;
+    padding: 10px;
+    margin-left: 23%;
+    margin-top: 7%;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+.save {
+    background-color: #935de9;
+    color: white;
+}
+
+.add {
+    background-color: #008CBA;
+    color: white;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.reset {
+    background-color: #ff9800;
+    color: white;
+}
+
+table {
+    width: 65%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
